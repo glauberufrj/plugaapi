@@ -36,6 +36,7 @@ class AlunosController < ApplicationController
   # DELETE /alunos/1
   def destroy
     @aluno.destroy
+    render json: 'Aluno removido com sucesso', status: :ok
   end
 
   private

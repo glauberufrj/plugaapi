@@ -3,7 +3,7 @@ class CreateAlunos < ActiveRecord::Migration[6.0]
     create_table :alunos do |t|
       t.string :name
       t.string :dre
-      t.int :ano
+      t.integer :ano
 
       t.timestamps
     end

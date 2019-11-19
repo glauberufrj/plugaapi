@@ -5,3 +5,11 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+50.times  do
+	Aluno.create({
+		name: Faker::Name.name,
+		dre: Faker::Number.number(digits: 10),
+    ano: Faker::Number.between(from: 2000, to: 2019)
+	})
+end
