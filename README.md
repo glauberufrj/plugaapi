@@ -2,6 +2,8 @@
 
 Essa API é uma `CRUD de Alunos`. Cada aluno possui um nome, DRE e ano, obrigatoriamente, utilizando o padrão `REST`.
 
+Segue a URL para acesso à API: https://plugarails.herokuapp.com/
+
 ## GET index
 Retorna todos os alunos.
 
